@@ -635,7 +635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a55b5a88fe942e34fb29b9503771d5f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gun: {fileID: 0}
+  _gun: {fileID: 18369946}
 --- !u!114 &1310414980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -650,7 +650,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Actions: {fileID: -944628639613478452, guid: f7c6e1af7ef840747aa0cc571481b41a,
     type: 3}
-  m_NotificationBehavior: 2
+  m_NotificationBehavior: 3
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
     m_PersistentCalls:
@@ -697,6 +697,19 @@ MonoBehaviour:
   m_DefaultActionMap: Ship
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &1310414981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310414978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff370f58d8e00fa4c8fc62edb7e6abad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _projectileSpawner: {fileID: 0}
 --- !u!4 &1310414983 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4374530761338154308, guid: d023bd880c759ca4eb196a02a84b3a3f,
